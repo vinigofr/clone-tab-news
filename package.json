@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/vinigofr/clone-tab-news/issues"
   },
-  "homepage": "https://github.com/vinigofr/clone-tab-news#readme"
+  "homepage": "https://github.com/vinigofr/clone-tab-news#readme",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
