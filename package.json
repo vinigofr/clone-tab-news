@@ -1,0 +1,19 @@
+{
+  "name": "clone-tab-news",
+  "version": "1.0.0",
+  "description": "Tab News clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinigofr/clone-tab-news.git"
+  },
+  "author": "Vinicius Gouveia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinigofr/clone-tab-news/issues"
+  },
+  "homepage": "https://github.com/vinigofr/clone-tab-news#readme"
+}
