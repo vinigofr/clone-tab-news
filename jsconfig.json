@@ -6,5 +6,6 @@
       "@pages/*": ["pages/*"],
       "@models/*": ["models/*"]
     }
-  }
+  },
+  "exclude": ["node_modules"]
 }
