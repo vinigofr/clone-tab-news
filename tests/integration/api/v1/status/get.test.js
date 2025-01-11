@@ -23,6 +23,4 @@ test("GET to api/v1/status should return 200", async () => {
   expect(responseDatabase.openned_connections).toBeDefined();
   expect(typeof responseDatabase.openned_connections).toBe("number");
   expect(responseDatabase.openned_connections).toBe(1);
-
-  console.log({ responseDatabase });
 });
