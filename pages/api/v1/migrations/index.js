@@ -7,13 +7,12 @@ const migrations = async (req, res) => {
 
   const { method } = req;
   const migrationRunnerConfig = {
-    client: dbClient,
-    databaseUrl: process.env.DATABASE_URL,
-    dryRun: true,
     dir: path.join("infra", "migrations"),
+    migrationsTable: "pgmigrations",
+    dbClient: dbClient,
     direction: "up",
     verbose: true,
-    migrationsTable: "pgmigrations",
+    dryRun: true,
   };
 
   const allowedMethods = ["GET", "POST"];
